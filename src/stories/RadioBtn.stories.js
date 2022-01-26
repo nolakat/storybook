@@ -1,7 +1,7 @@
 import MyRadioBtn from './RadioBtn.vue';
 
 export default{
-  title: 'Example/RadioBtn',
+  title: 'Controls/Radio Button - Single',
   component: MyRadioBtn,
   argTypes: {
     color: { control: 'color' },
