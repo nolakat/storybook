@@ -12,7 +12,7 @@ export default{
 const Template = (args, { argTypes }) => ({
   props: Object.keys(argTypes),
   components: { MyRadioBtn },
-  template: '<my-radio-btn @onClick="onClick" v-bind="$props" />',
+  template: '<my-radio-btn v-bind="$props" />',
 });
 
 export const Primary = Template.bind({});
