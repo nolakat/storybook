@@ -1,6 +1,6 @@
 <template>
 <div
-  class="h-screen overflow-hidden border-2 border-blue-500 "
+  class="h-screen overflow-hidden"
   >
   <button class="px-2 py-6 mt-4 ml-4 bg-gray-300" @click="toggleSideDrawer()">Toggle Drawer</button>
   <transition name="slide">
