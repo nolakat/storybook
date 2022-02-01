@@ -22,3 +22,11 @@ export const Primary = Template.bind({});
 Primary.args = {
   side: 'right'
 };
+
+Primary.parameters = {
+  design: {
+    type: 'figma',
+    url:
+      'https://www.figma.com/file/ymEfGlH4YA1LdiYuePi4I9/EB-Components',
+  },
+}
