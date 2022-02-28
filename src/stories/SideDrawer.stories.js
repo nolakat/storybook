@@ -6,6 +6,10 @@ export default{
     side: {
       control: { type: 'select' },
       options: ['right', 'left'],
+    },
+    background:{
+      control: { type: 'select'},
+      options: ['light', 'dark']
     }
   }
 }
